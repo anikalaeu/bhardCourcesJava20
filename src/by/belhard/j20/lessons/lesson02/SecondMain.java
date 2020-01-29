@@ -34,8 +34,5 @@ public class SecondMain {
         System.out.println(b);
 
 
-
-
-
     }
 }

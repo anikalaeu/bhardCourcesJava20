@@ -21,6 +21,7 @@ public class Exercise6 {
         var tax = 1;
         var sumTax = startSum * tax / 100;
         float procInd = 1 + proc / 100;
+        //double cash = strtSum;
 
         System.out.println("Комиссия банка = " + sumTax);
         System.out.println("Процентный индекс = " + procInd);
@@ -33,6 +34,9 @@ public class Exercise6 {
             System.out.println(res);
             years--;
         }
+        /* for (int i = 0; i < years; i++)
+        cash = cash + cash * proc / 100 - tax;
+         */
         System.out.println("ИТОГО " + res);
     }
 }

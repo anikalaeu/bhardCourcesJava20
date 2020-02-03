@@ -11,8 +11,15 @@ public class Exercise4 {
         int sal1 = 112;
         int sal2 = 117;
         int sal3 = 115;
-        int max;
-        int min;
+        int max; //int max = s1;
+        int min; //int min = s1; минус одна проверка
+
+
+        /* if (sal2 > max)
+            max = sal2;
+
+            max = Math.max(Math.max(sal1, sal2), sal3); //нужны разные значения sal1...sal3
+         */
 
 
         if (sal1 > sal2)

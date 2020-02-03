@@ -10,18 +10,19 @@ public class Exercise2 {
         Если так – то вычисляем, если нет – выведем на консоль сообщение о невалидности входных данных.     */
 
 
-        int r;
-        r = 20;
+        int r = 20;
         float lenght, sqare;
-        double pi = 3.1415;
+        double pi = Math.PI; //можно через метод Math. или 3.1415...
 
 
         if (r > 0) {
             lenght = (float) (2 * pi * r);
             sqare = (float) (pi * r * r);
+            //sqare = (float) (pi * Math.pow(r, 2)); //еще один вариант написания
             System.out.println(lenght);
             System.out.println(sqare);
-        } else System.out.println("Radius must be bigger then zero");
+        }
+            else System.out.println("Radius must be bigger then zero");
 
 
     }
